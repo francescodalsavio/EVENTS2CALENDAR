@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "42 Calendar",
+  "version": "1.0",
+  "description": "Add a new button to the event page",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://profile.intra.42.fr/*"],
+    "js": ["content.js"]
+}]
+}
